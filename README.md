@@ -55,3 +55,9 @@ Visão de Cenários
 
 ## Participantes
 [Caio Riserio da Silva](https://github.com/DukeOmni)
+
+
+## Comentários do Professor
+- Está bem quanto ao cronograma;
+- Deixar os artefatos, de acordo com as pastas especificadas no documento de Requisitos do Trabalho;
+- Quando você apresenta o MVC, é necessário que você faça a relação de: a) quais são seus Models; b) quais são suas Views; e, c) quais são seus Controllers.
