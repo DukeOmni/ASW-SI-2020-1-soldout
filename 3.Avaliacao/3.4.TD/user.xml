@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com" elementFormDefault="qualified">
+	<element name="user">
+		<complexType>
+			<sequence>
+				<element name="user-name" type="xs:string" />
+				<element name="password" type="xs:string" />
+			</sequence>
+		</complexType>
+	</element>
+</schema>

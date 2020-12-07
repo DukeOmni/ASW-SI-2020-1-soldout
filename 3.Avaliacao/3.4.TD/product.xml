@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com" elementFormDefault="qualified">
+	<element name="product">
+		<complexType>
+			<sequence>
+				<element name="nome" type="xs:string" />
+				<element name="descricao" type="xs:sstring" />
+				<element name="preco" type="xs:string" />
+			</sequence>
+			<element name="caracteristics">
+                <sequence>
+				    <element name="marca" type="xs:string" />
+				    <element name="modelo" type="xs:string" />       
+                </sequence>
+			</element>
+		</complexType>
+	</element>
+</schema>

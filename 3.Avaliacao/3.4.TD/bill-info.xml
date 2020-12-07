@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com" elementFormDefault="qualified">
+	<element name="bill-info">
+		<complexType>
+			<sequence>
+				<element name="credit-card" type="xs:boolean" />
+				<element name="debit-card" type="xs:boolean" />
+				<element name="card-number" type="xs:integer" />
+				<element name="date-validation" type="xs:integer" />
+				<element name="adress" type="xs:string" />
+				<element name="zip/cep-code" type="xs:string" />
+				<element name="cpf" type="xs:string" />
+			</sequence>
+		</complexType>
+	</element>
+</schema>
